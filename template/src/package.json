@@ -1,0 +1,16 @@
+{
+    "name": "__TEMPLATE_NAME__",
+    "version": "0.0.1",
+    "description": "",
+    "main": "bundle.js",
+    "types": "public_api.d.ts",
+    "author": {
+      "name": "Giovanni Garcia"
+    },
+    "keywords": [
+		"typescript"
+    ],
+    "license": "SEE LICENSE IN LICENSE",
+    "peerDependencies": {
+    }
+  }

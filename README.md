@@ -2,7 +2,7 @@
 Plantilla para crear librerias NPM de Typescript, empleando WebPack como ejecutor de tareas y el plugin ts-loader como transpilador a Javascript.
 
 La transpilacion genera los Types para poder emplear la libreria con otros proyectos de TypeScript.
-##Uso
+## Uso
 
 1. Ejecute el script index.js 
 ```
@@ -10,7 +10,7 @@ node template-creator/index.js [Nombre_Del_Proyecto]
 ```
 2. Se genera una nueva carpeta [Nombre_Del_Proyecto] que contiene el proyecto NPM
 
-##Tareas del proyecto NPM Typescript:
+## Tareas del proyecto NPM Typescript:
 ```
 "prebuild": "npm run lint"
 "test": "karma start ./test/karma.config.js

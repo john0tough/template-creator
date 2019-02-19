@@ -11,6 +11,7 @@ node template-creator/index.js [Nombre_Del_Proyecto]
 2. Se genera una nueva carpeta [Nombre_Del_Proyecto] que contiene el proyecto NPM
 
 ##Tareas del proyecto NPM Typescript:
+```
 "prebuild": "npm run lint"
 "test": "karma start ./test/karma.config.js
 "build:jsdevelop": "webpack --config webpack.dev.js"
@@ -18,3 +19,4 @@ node template-creator/index.js [Nombre_Del_Proyecto]
 "build:develop": "npm run build:jsdevelop && node postbuild.js"
 "build": "npm run build:js && node postbuild.js"
 "pack": "npm pack -cwd ./dist && node pack.js"
+```
